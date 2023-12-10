@@ -7,9 +7,19 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
 
+import 'get-device-token-controller.dart';
+
 class SignUpController extends GetxController {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
+
+
+  /*Tanim*/
+  final GetDeviceTokenController getDeviceTokenController =
+  Get.put(GetDeviceTokenController());
+  /*Tanim*/
+
+
 
   //for password visibilty
   var isPasswordVisible = false.obs;
@@ -39,7 +49,8 @@ class SignUpController extends GetxController {
         email: userEmail,
         phone: userPhone,
         userImg: '',
-        userDeviceToken: userDeviceToken,
+        //userDeviceToken: userDeviceToken,
+        userDeviceToken: getDeviceTokenController.deviceToken.toString(),
         country: '',
         userAddress: '',
         street: '',

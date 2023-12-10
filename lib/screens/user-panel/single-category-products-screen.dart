@@ -52,7 +52,7 @@ class _AllSingleCategoryProductsScreenState
 
           if (snapshot.data!.docs.isEmpty) {
             return Center(
-              child: Text("No category found!"),
+              child: Text("No products found!"),
             );
           }
 
