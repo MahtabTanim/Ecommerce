@@ -47,7 +47,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 Container(
                   alignment: Alignment.center,
                   child: Text(
-                    "Welcome to my app",
+                    "EasyShopping",
                     style: TextStyle(
                         color: AppConstant.appScendoryColor,
                         fontWeight: FontWeight.bold,

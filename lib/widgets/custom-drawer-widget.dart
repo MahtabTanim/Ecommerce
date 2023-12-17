@@ -36,7 +36,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
               child: ListTile(
                 titleAlignment: ListTileTitleAlignment.center,
                 title: Text(
-                  "Ecom app ",
+                  "EasyShopping",
                   style: TextStyle(color: AppConstant.appTextColor),
                 ),
                 subtitle: Text(

@@ -36,7 +36,7 @@ class _ForgetPasswordScreenState extends State<ForgetPasswordScreen> {
           child: Column(
             children: [
               isKeyboardVisible
-                  ? Text("Welcome to my app")
+                  ? Text("EasyShopping")
                   : Column(
                       children: [
                         Lottie.asset('assets/images/splash-icon.json'),

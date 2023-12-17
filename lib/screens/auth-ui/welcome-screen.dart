@@ -21,7 +21,7 @@ class WelcomeScreen extends StatelessWidget {
         centerTitle: true,
         backgroundColor: AppConstant.appScendoryColor,
         title: Text(
-          "Welcome to my app",
+          "EasyShopping",
           style: TextStyle(color: AppConstant.appTextColor),
         ),
       ),
